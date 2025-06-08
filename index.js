@@ -27,4 +27,8 @@ function doispv() {
 function umpv() {
     placarv.textContent = parseInt(placarv.textContent) + 1;
 }
+function reset() {
+    document.getElementById("casa").textContent = "0";
+    document.getElementById("visita").textContent = "0";
+}
 
